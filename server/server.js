@@ -1,5 +1,5 @@
 var express = require('express');
-var bodyParser = require('body-parser'); //take json convert it inot object
+var bodyParser = require('body-parser'); //take json convert it into object
 
 const {ObjectID} = require('mongodb'); 
 var {mongoose} = require('./db/mongoose.js');
