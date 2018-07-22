@@ -102,7 +102,6 @@ describe('GET /todos/:id', () => {
 	});
 
 	it('should return 404 for non-object id', (done) => {
-		var hexId = new ObjectID().toHexString();
 
 		request(app)
 		.get(`/todos/${hexId}`)
